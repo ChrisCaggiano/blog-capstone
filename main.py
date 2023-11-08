@@ -12,12 +12,12 @@ import smtplib
 # Import your forms from the forms.py
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 
-MY_EMAIL = "chriscagg2001@gmail.com"
-MY_PASSWORD = "graeyexmvhuiyrkk"
+MY_EMAIL = "YOUR EMAIL HERE"
+MY_PASSWORD = "YOUR PASSWORD HERE"
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'YOUR SECRET KEY'
 ckeditor = CKEditor(app)
 Bootstrap5(app)
 
